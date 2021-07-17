@@ -8,18 +8,22 @@ Specifically, we will be working with "unit tests", as our type of test. A unit 
 Additionally, we will be using a process called Test Driven Development, commonly called TDD, where we author tests to assert expected vs. actual results before authoring the code that produces those results. While TDD can be used on a variety of types of tests, we'll be applying the TDD workflow and process with unit tests.
 
 ## Key Vocabulary
-<dl>
-    <dt>Implementation</dt>
-    <dd>The code the a developer authors to realize the sequence of steps that the code runs to solve a problem (called an algorithm).</dd>    
-    <dt>Refactor</dt>
-    <dd>To refactor means to re-write an implementation. [Refactoring](https://martinfowler.com/bliki/DefinitionOfRefactoring.html) aims to increase the code quality without changing its observable behavior. Developers refactor code to increase readability, increase flexibility, add a fix for edge-case bugs, reduce duplication, or make the code more accessible for yourself and other developers moving forward.</dd>    
-    <dt>Unit</dt>
-    <dd>An individual piece of functionality which is single, whole, and complete but which also forms an individual component of a larger or more complex whole.</dd>
-    <dt>Unit Test</dt>
-    <dd>Unit tests are automated tests that test the accuracy, reliability, and appropriateness of the implementation for a unit of functionality. Unit tests compare the expected vs. actual outputs for user-defined functions when provided various inputs.</dd>
-    <dt>Test Driven Development, TDD</dt>
-    <dd>The practice of writing tests for functionality before writing the implementation of that functionality. Rather than authoring tests after the functionality exists, the TDD workflow aims to use the automated tests to provide feedback before and as the developer authors their implementation</dd>    
-</dl>
+
+Implementation
+: The code the a developer authors to realize the sequence of steps that the code runs to solve a problem (called an algorithm).
+
+Refactor
+: To refactor means to re-write an implementation. [Refactoring](https://martinfowler.com/bliki/DefinitionOfRefactoring.html) aims to increase the code quality without changing its observable behavior. Developers refactor code to increase readability, increase flexibility, add a fix for edge-case bugs, reduce duplication, or make the code more accessible for yourself and other developers moving forward.
+
+Unit
+: An individual piece of functionality which is single, whole, and complete but which also forms an individual component of a larger or more complex whole.</dd>
+
+Unit Test 
+: Unit tests are automated tests that test the accuracy, reliability, and appropriateness of the implementation for a unit of functionality. Unit tests compare the expected vs. actual outputs for user-defined functions when provided various inputs.
+
+Test Driven Development, TDD
+: The practice of writing tests for functionality before writing the implementation of that functionality. Rather than authoring tests after the functionality exists, the TDD workflow aims to use the automated tests to provide feedback before and as the developer authors their implementation    
+
 
 ## Overview
 - Green tests are passing, red tests mean that the code is incomplete, inaccurate, missing, or you have a syntax error somewhere in your code.
@@ -95,7 +99,7 @@ Additionally, we will be using a process called Test Driven Development, commonl
     - Refresh `report.html` in your browser.
     - Fix the syntax error and confirm that tests are all green.
 
-1. Now, go to `code.js` and replace the function statement for `helloWorld` with a function experession. Do all the tests stay green or not? Why or why not? Double check your syntax. These are interchangeable because functions are *first class* citizens in the JS language.
+1. Now, go to `code.js` and replace the function statement for `helloWorld` with a function expression. Do all the tests stay green or not? Why or why not? Double check your syntax. These are interchangeable because functions are *first class* citizens in the JS language.
 ```js
 // function statement syntax
 function helloWorld() {
