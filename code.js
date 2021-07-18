@@ -24,3 +24,13 @@ function isFive(input){
 function isEven(num){
     return num % 2 === 0;
 }
+
+function isVowel(letter){
+    if (typeof letter === 'string'){
+        letter = letter.toLowerCase();
+        return letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u';
+    } else {
+        return false;
+    }
+
+}
