@@ -29,3 +29,15 @@ describe('sayHello', function(){
         expect(sayHello(true)).toBe("Hello, World!");
     });
 });
+
+describe('isFive', function(){
+    it('should be a defined function', function(){
+       expect(typeof isFive).toBe('function');
+    });
+});
+
+describe('experiment', function(){
+    it('should be a defined function', function(){
+        expect(typeof experiment).toBe('function');
+    });
+})
