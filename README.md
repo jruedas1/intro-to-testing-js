@@ -293,7 +293,7 @@ Our next exercise is to follow the TDD workflow to develop incremental tests and
 - Build up functionality one small piece at a time.
 - If any input is not a number, return NaN
 - Refactor, if possible
-- Repeat until the tests are robust and the function works as intented.
+- Repeat until the tests are robust and the function works as intended.
 - Commit your work to git and push to GitHub.
 
 ## Conclusion and completeness
