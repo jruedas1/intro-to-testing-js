@@ -2,7 +2,7 @@
 // function helloWorld() {
 //     return "Hello, World!";
 // }
-//
+// this is a test of the green-square-on-forked-repo method
 
 const helloWorld = function(){
     return "Hello, World!";
